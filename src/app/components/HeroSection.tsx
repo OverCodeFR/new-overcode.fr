@@ -11,7 +11,7 @@ export default function HeroSection() {
                 transition={{ duration: 0.6 }}
                 className="text-4xl md:text-6xl font-bold mb-6"
             >
-                Salut, je suis <span className="text-blue-600">Développeur d'applications</span>
+                Salut, je suis <span className="text-blue-600">Développeur d&apos;applications</span>
             </motion.h1>
 
             <motion.p
