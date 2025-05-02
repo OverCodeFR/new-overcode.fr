@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+}
+
 :root {
   --primary: hsla(224, 58%, 27%, 1);
   --secondary: hsla(288, 47%, 24%, 1);
@@ -13,14 +19,4 @@
   :root {
 
   }
-}
-
-.text-primary {
-  color: var(--primary);
-}
-.text-secondary {
-  color: var(--secondary);
-}
-.text-accent {
-  color: var(--accent);
 }

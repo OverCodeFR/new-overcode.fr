@@ -85,8 +85,8 @@ export default function FooterSection() {
                 </div>
                 <div className="mt-24 border-t border-gray-900/10 pt-12 xl:grid xl:grid-cols-3 xl:gap-8">
                     <img
-                        alt="Company name"
-                        src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
+                        alt="Logo OverCode"
+                        src="/images/overcode-logo.webp"
                         className="h-9"
                     />
                     <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
