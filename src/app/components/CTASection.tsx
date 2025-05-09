@@ -17,9 +17,6 @@ export default function CTASection() {
                         >
                             Prendre contact
                         </a>
-                        <a href="#" className="text-sm/6 font-semibold text-white">
-                            Learn more <span aria-hidden="true">→</span>
-                        </a>
                     </div>
                     <svg
                         viewBox="0 0 1024 1024"
