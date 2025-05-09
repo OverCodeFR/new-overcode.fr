@@ -8,14 +8,14 @@ export default function CTASection() {
                         className="text-green-300">solution</span>
                     </h2>
                     <p className="mx-auto mt-6 max-w-full text-pretty text-lg/8 text-gray-300">
-                        En passant par le développement d'un site complet, d'un e-commerce, d'une application de gestion (ERP) ou d'un site vitrine, OverCode vous accompagne dans la création de votre projet web en répondant à vos besoins par la meilleure solution.
+                        En passant par le développement d&apos;un site complet, d&apos;un e-commerce, d&apos;une application de gestion (ERP) ou d&apos;un site vitrine, OverCode vous accompagne dans la création de votre projet web en répondant à vos besoins par la meilleure solution.
                     </p>
                     <div className="mt-10 flex items-center justify-center gap-x-6">
                         <a
                             href="mailto:contact@overcode.fr"
                             className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                         >
-                            Prendre contact
+                            Parlons de vos besoins
                         </a>
                     </div>
                     <svg
