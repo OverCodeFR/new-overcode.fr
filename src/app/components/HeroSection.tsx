@@ -31,14 +31,12 @@ export default function HeroSection() {
                                     </span>
                                 </a>
                             </div>
-                            <h1 className="max-w-2xl text-balance text-5xl font-semibold tracking-tight text-gray-900 lg:col-span-2 xl:col-auto">
+                            <h1 className="max-w-2xl text-balance text-4xl sm:text-5xl font-semibold tracking-tight text-gray-900 lg:col-span-2 xl:col-auto">
                                 Applications web et mobiles sur mesure – Bretagne & Grand Ouest
                             </h1>
                             <div className="mt-6 max-w-xl lg:mt-6">
-                                <p className="text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
-                                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                                    fugiat veniam occaecat fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                                    lorem cupidatat commodo.
+                                <p className="text-pretty text-md font-medium text-gray-500 sm:text-lg/8">
+                                    Nous concevons des applications web, sites e-commerce et solutions mobiles sur mesure pour les entreprises et indépendants de Bretagne et du Grand Ouest. Du design à la mise en ligne, OverCode vous accompagne à chaque étape pour créer votre solution.
                                 </p>
                                 <div className="mt-6 flex items-center gap-x-6">
                                     <a
@@ -54,10 +52,12 @@ export default function HeroSection() {
                             </div>
                         </div>
                         <div className="col-span-1 hidden lg:block">
-                            <img
+                            <Image
+                                width={400}
+                                height={300}
                                 alt="Overcode - Développeur"
                                 src="/images/programmer.webp"
-                                className="aspect-[6/5] w-full max-w-lg object-cover lg:max-w-none"
+                                className="aspect-auto w-full max-w-lg object-cover lg:max-w-none"
                             />
                         </div>
                     </div>

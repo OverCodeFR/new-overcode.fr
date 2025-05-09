@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const navigation = {
     solutions: [
         { name: 'A propos', href: '#' },
@@ -57,7 +59,7 @@ export default function FooterSection() {
             <div className="mx-auto max-w-7xl px-6 py-8 lg:px-8">
                 <div className="mx-auto max-w-2xl text-center">
                     <hgroup>
-                        <h2 className="text-base/7 font-semibold text-indigo-600">Get started</h2>
+                        <h2 className="text-base/7 font-semibold text-indigo-600">Contact</h2>
                         <p className="mt-2 text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
                             Boost your productivity. Start using our app today.
                         </p>
@@ -76,10 +78,12 @@ export default function FooterSection() {
                     </div>
                 </div>
                 <div className="mt-24 border-t border-gray-900/10 pt-12 xl:grid xl:grid-cols-3 xl:gap-8">
-                    <img
+                    <Image
+                        width={300}
+                        height={40}
                         alt="Logo OverCode"
                         src="/images/overcode-logo.webp"
-                        className="h-9"
+                        className="h-9 w-auto"
                     />
                     <div className="mt-16 grid grid-cols-3 gap-8 xl:col-span-2 xl:mt-0">
                         <div>
