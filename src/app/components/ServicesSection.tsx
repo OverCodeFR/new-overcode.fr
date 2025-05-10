@@ -46,7 +46,7 @@ export default function ServicesSection() {
                 <div className="mx-auto max-w-2xl text-center">
                     <h2 className="text-base/7 font-semibold text-secondary">Services</h2>
                     <p className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-                        Développez vos projets avec nous.
+                        Développez vos projets avec nous
                     </p>
                     <p className="mt-2 text-lg/8 text-gray-600">Retrouvez ici les différents services proposés par OverCode, si vous ne trouvez pas votre besoin, n'hésitez pas à nous contacter pour en discuter et étudier vos besoins ensemble.</p>
                 </div>

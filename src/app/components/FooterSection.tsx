@@ -1,4 +1,5 @@
 import Image from "next/image";
+import {EnvelopeIcon} from "@heroicons/react/20/solid";
 
 const navigation = {
     solutions: [
@@ -65,19 +66,26 @@ export default function FooterSection() {
                     <hgroup>
                         <h2 className="text-base/7 font-semibold text-secondary">Contact</h2>
                         <p className="mt-2 text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-                            Boost your productivity. Start using our app today.
+                            Votre solution à portée de main
                         </p>
                     </hgroup>
-                    <p className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-gray-600">
-                        Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur
-                        commodo do ea.
+                    <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg/8 text-gray-600">
+                        Prêt à concrétiser votre projet ? Échangeons ensemble — à distance ou autour d&apos;un café dans l&apos;Ouest (Rennes, Nantes, Bretagne, Vendée) !
                     </p>
-                    <div className="mt-8 flex justify-center">
+                    <div className="mt-8 flex justify-center gap-x-8">
                         <a
-                            href="#"
-                            className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                            href="mailto:contact@overcode.fr"
+                            className="rounded-md bg-accent px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent inline-flex gap-2 items-center"
                         >
-                            Get started
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5" viewBox="0 0 512 512" fill="currentColor">
+                                <path d="M88 0C74.7 0 64 10.7 64 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C120.5 112.3 128 119.9 128 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C119.5 47.7 112 40.1 112 24c0-13.3-10.7-24-24-24zM32 192c-17.7 0-32 14.3-32 32L0 416c0 53 43 96 96 96l192 0c53 0 96-43 96-96l16 0c61.9 0 112-50.1 112-112s-50.1-112-112-112l-48 0L32 192zm352 64l16 0c26.5 0 48 21.5 48 48s-21.5 48-48 48l-16 0 0-96zM224 24c0-13.3-10.7-24-24-24s-24 10.7-24 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C232.5 112.3 240 119.9 240 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C231.5 47.7 224 40.1 224 24z"/></svg>
+                            Boire un café ensemble
+                        </a>
+                        <a
+                            href="mailto:contact@overcode.fr"
+                            className="rounded-md bg-accent px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent inline-flex gap-2 items-center"
+                        >
+                            <EnvelopeIcon className="h-5"/>Discuter de votre projet
                         </a>
                     </div>
                 </div>
