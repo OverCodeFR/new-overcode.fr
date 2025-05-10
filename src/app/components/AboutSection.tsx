@@ -5,7 +5,7 @@ export default function AboutSection() {
                 <div className="max-w-4xl">
                     <p className="text-base/7 font-semibold text-secondary">A propos</p>
                     <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-                        Développement web & mobile sur mesure dans l’Ouest
+                        Développement web & mobile sur mesure dans l&apos;Ouest
                     </h2>
                     <p className="mt-6 text-xl/8 text-gray-700">
                         Basé entre Nantes et Rennes, OverCode accompagne les entreprises, startups et indépendants dans la création d&apos;outils digitaux performants : sites vitrines, e-commerces, applications web et mobiles.
@@ -19,7 +19,7 @@ export default function AboutSection() {
 
                         </p>
                         <p className="mt-8 text-base/7 text-gray-600">
-                            Nous privilégions une collaboration de proximité, transparente et agile. En travaillant principalement avec des acteurs de l’Ouest (Loire-Atlantique, Bretagne, Vendée), nous restons accessibles, réactifs et à l’écoute de nos clients.
+                            Nous privilégions une collaboration de proximité, transparente et agile. En travaillant principalement avec des acteurs de l&apos;Ouest (Loire-Atlantique, Bretagne, Vendée), nous restons accessibles, réactifs et à l&apos;écoute de nos clients.
 
                         </p>
                     </div>
