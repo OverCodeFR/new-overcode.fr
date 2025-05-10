@@ -48,7 +48,7 @@ export default function ServicesSection() {
                     <p className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
                         Développez vos projets avec nous
                     </p>
-                    <p className="mt-2 text-lg/8 text-gray-600">Retrouvez ici les différents services proposés par OverCode, si vous ne trouvez pas votre besoin, n'hésitez pas à nous contacter pour en discuter et étudier vos besoins ensemble.</p>
+                    <p className="mt-2 text-lg/8 text-gray-600">Retrouvez ici les différents services proposés par OverCode, si vous ne trouvez pas votre besoin, n&apos;hésitez pas à nous contacter pour en discuter et étudier vos besoins ensemble.</p>
                 </div>
             </div>
             <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8">
