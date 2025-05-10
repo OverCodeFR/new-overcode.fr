@@ -1,103 +1,84 @@
-import Image from "next/image";
+import NavbarSectionMentions from "@/app/components/NavbarSectionMentions";
 
-export default function Legal() {
+export default function Cgv() {
     return (
-        <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-            <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-                <Image
-                    className="dark:invert"
-                    src="/next.svg"
-                    alt="Next.js logo"
-                    width={180}
-                    height={38}
-                    priority
-                />
-                <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-                    <li className="mb-2 tracking-[-.01em]">
-                        Get started by editing{" "}
-                        <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-                            src/app/page.tsx
-                        </code>
-                        .
+        <div className="bg-white py-24 sm:py-32">
+            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+                <NavbarSectionMentions/>
+                <ul className="px-32 gap-y-4">
+                    <li className="mt-8">
+                        <h2 className="text-xl font-medium text-gray-900 mb-2">Éditeur du site</h2>
+                        <p className="text-base text-gray-700">
+                            Le présent site est édité par :
+                            <br />
+                            <strong>OverCode - Montassier Bryan</strong>
+                            <br />
+                            Statut : Entreprise individuelle
+                            <br />
+                            SIRET : 89930429900014
+                            <br />
+                            Adresse : 10 Rue Cécile Sauvage, 85000 La Roche-sur-Yon
+                            <br />
+                            Téléphone : 06 22 05 07 88
+                            <br />
+                            Email : <a href="mailto:contact@overcode.fr">contact@overcode.fr</a>
+                            <br />
+                            Directeur de la publication : Montassier Bryan
+                        </p>
                     </li>
-                    <li className="tracking-[-.01em]">
-                        Save and see your changes instantly.
-                    </li>
-                </ol>
+                    <li className="mt-4">
+                        <h2 className="text-xl font-medium text-gray-900 mb-2">Hébergeur du site</h2>
+                        <p className="text-base text-gray-700">
+                            Le site est hébergé par :
+                            <br />
+                            <strong>o2switch</strong>
+                            <br/>
+                            SAS au capital de 100 000 €
+                            <br />
+                            Adresse : 222-224 Boulevard Gustave Flaubert, 63000 Clermont-Ferrand
+                            <br />
+                            Téléphone : 04 44 44 60 40
+                            <br />
+                            Site web : <a href="https://www.o2switch.fr" target="_blank" rel="noopener noreferrer">o2switch.fr</a>
 
-                <div className="flex gap-4 items-center flex-col sm:flex-row">
-                    <a
-                        className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-                        href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <Image
-                            className="dark:invert"
-                            src="/vercel.svg"
-                            alt="Vercel logomark"
-                            width={20}
-                            height={20}
-                        />
-                        Deploy now
-                    </a>
-                    <a
-                        className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-                        href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Read our docs
-                    </a>
-                </div>
-            </main>
-            <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-                <a
-                    className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-                    href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <Image
-                        aria-hidden
-                        src="/file.svg"
-                        alt="File icon"
-                        width={16}
-                        height={16}
-                    />
-                    Learn
-                </a>
-                <a
-                    className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-                    href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <Image
-                        aria-hidden
-                        src="/window.svg"
-                        alt="Window icon"
-                        width={16}
-                        height={16}
-                    />
-                    Examples
-                </a>
-                <a
-                    className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-                    href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <Image
-                        aria-hidden
-                        src="/globe.svg"
-                        alt="Globe icon"
-                        width={16}
-                        height={16}
-                    />
-                    Go to nextjs.org →
-                </a>
-            </footer>
+                        </p>
+                    </li>
+                    <li className="mt-4">
+                        <h2 className="text-xl font-medium text-gray-900 mb-2">Propriété intellectuelle</h2>
+                        <p className="text-base text-gray-700">
+                            L’ensemble du contenu du site (textes, graphismes, logo, code, etc.) est la propriété exclusive de OverCode, sauf indication contraire.
+                            <br />
+                            Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite sans l’autorisation écrite préalable de OverCode.
+                            <br />
+                            Toute exploitation non autorisée pourra être poursuivie conformément aux dispositions du Code de la propriété intellectuelle.
+                        </p>
+                    </li>
+                    <li className="mt-4">
+                        <h2 className="text-xl font-medium text-gray-900 mb-2">Protection des données personnelles</h2>
+                        <p className="text-base text-gray-700">
+                            Les informations collectées via le formulaire de contact (nom, adresse e-mail, message) sont uniquement destinées au traitement des demandes reçues. Elles ne sont ni revendues, ni utilisées à des fins commerciales.
+                            <br/>
+                            Ces données sont conservées pour une durée maximale de 12 mois à compter du dernier contact.
+                            <br/>
+                            Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez d’un droit d’accès, de rectification et de suppression de vos données. Vous pouvez exercer ce droit en envoyant un email à : contact@overcode.fr
+                        </p>
+                    </li>
+                    <li className="mt-4">
+                        <h2 className="text-xl font-medium text-gray-900 mb-2">Cookies</h2>
+                        <p className="text-base text-gray-700">
+                            Le site peut utiliser des cookies à des fins de mesure d’audience ou de bon fonctionnement.
+                            <br/>
+                            L’utilisateur peut s’opposer à l’enregistrement de ces cookies en configurant son navigateur ou via la bannière dédiée lors de la première visite.
+                        </p>
+                    </li>
+                    <li className="mt-4">
+                        <h2 className="text-xl font-medium text-gray-900 mb-2">Responsabilité</h2>
+                        <p className="text-base text-gray-700">
+                            OverCode ne saurait être tenue responsable des éventuelles erreurs ou omissions dans les informations diffusées, ni de l’usage qui pourrait être fait des informations accessibles sur le site.
+                        </p>
+                    </li>
+                </ul>
+            </div>
         </div>
     );
 }
