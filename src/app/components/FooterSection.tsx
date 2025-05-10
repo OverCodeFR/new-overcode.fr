@@ -60,7 +60,7 @@ const year = new Date().getFullYear()
 
 export default function FooterSection() {
     return (
-        <footer className="bg-white">
+        <footer className="bg-white" id="contact">
             <div className="mx-auto max-w-7xl px-6 py-8 lg:px-8">
                 <div className="mx-auto max-w-2xl text-center">
                     <hgroup>
