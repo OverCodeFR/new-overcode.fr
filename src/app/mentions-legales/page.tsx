@@ -31,16 +31,13 @@ export default function Cgv() {
                         <p className="text-base text-gray-700">
                             Le site est hébergé par :
                             <br />
-                            <strong>o2switch</strong>
-                            <br/>
-                            SAS au capital de 100 000 €
+                            <strong>Netlify, Inc.</strong>
                             <br />
-                            Adresse : 222-224 Boulevard Gustave Flaubert, 63000 Clermont-Ferrand
+                            Société de droit américain
                             <br />
-                            Téléphone : 04 44 44 60 40
+                            Adresse : 44 Montgomery Street, Suite 300, San Francisco, California 94104, États-Unis
                             <br />
-                            Site web : <a href="https://www.o2switch.fr" target="_blank" rel="noopener noreferrer">o2switch.fr</a>
-
+                            Site web : <a href="https://www.netlify.com" target="_blank" rel="noopener noreferrer">netlify.com</a>
                         </p>
                     </li>
                     <li className="mt-4">
@@ -56,11 +53,9 @@ export default function Cgv() {
                     <li className="mt-4">
                         <h2 className="text-xl font-medium text-gray-900 mb-2">Protection des données personnelles</h2>
                         <p className="text-base text-gray-700">
-                            Les informations collectées via le formulaire de contact (nom, adresse e-mail, message) sont uniquement destinées au traitement des demandes reçues. Elles ne sont ni revendues, ni utilisées à des fins commerciales.
-                            <br/>
-                            Ces données sont conservées pour une durée maximale de 12 mois à compter du dernier contact.
-                            <br/>
-                            Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez d’un droit d’accès, de rectification et de suppression de vos données. Vous pouvez exercer ce droit en envoyant un email à : contact@overcode.fr
+                            Le site ne collecte aucune donnée personnelle.
+                            <br />
+                            Aucune information nominative n&apos;est stockée, transmise ou traitée via ce site.
                         </p>
                     </li>
                     <li className="mt-4">
