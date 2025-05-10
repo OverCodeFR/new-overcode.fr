@@ -1,42 +1,41 @@
 import {
-    ArrowPathIcon,
-    CloudArrowUpIcon,
+    GlobeAltIcon,
+    ComputerDesktopIcon,
     Cog6ToothIcon,
     FingerPrintIcon,
-    LockClosedIcon,
-    ServerIcon,
+    UsersIcon, DevicePhoneMobileIcon,
 } from '@heroicons/react/20/solid'
 
 const features = [
     {
-        name: 'Push to deploy.',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
-        icon: CloudArrowUpIcon,
+        name: 'Site vitrine/e-commerce.',
+        description: 'Nous concevons des sites vitrines et boutiques en ligne sur mesure, modernes et optimisés pour le référencement naturel (SEO), afin de présenter votre activité et vendre vos produits efficacement.',
+        icon: ComputerDesktopIcon,
     },
     {
-        name: 'SSL certificates.',
-        description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
-        icon: LockClosedIcon,
+        name: 'Application mobile.',
+        description: 'Développement d\'applications mobiles natives ou hybrides (iOS & Android), intuitives et performantes, pour répondre aux besoins spécifiques de vos utilisateurs et renforcer votre présence mobile.',
+        icon: DevicePhoneMobileIcon,
     },
     {
-        name: 'Simple queues.',
-        description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.',
-        icon: ArrowPathIcon,
+        name: 'CMS.',
+        description: 'Mise en place, personnalisation et optimisation de CMS comme WordPress ou HubSpot, pour une gestion autonome et simplifiée de votre contenu en ligne.',
+        icon: GlobeAltIcon,
     },
     {
-        name: 'Advanced security.',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
+        name: 'Logiciel sur-mesure/métier.',
+        description: 'Développement de solutions logicielles personnalisées, parfaitement adaptées à vos processus métiers, pour gagner en efficacité, productivité et compétitivité.',
         icon: FingerPrintIcon,
     },
     {
-        name: 'Powerful API.',
-        description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+        name: 'API.',
+        description: 'Conception et intégration d’API robustes pour connecter vos applications entre elles, automatiser vos flux de données et faciliter les échanges avec des services tiers.',
         icon: Cog6ToothIcon,
     },
     {
-        name: 'Database backups.',
-        description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. ',
-        icon: ServerIcon,
+        name: 'Formations/conseils.',
+        description: 'Nous proposons des formations personnalisées et du conseil technique sur les technologies web et mobiles utilisées dans vos projets, pour monter en compétence ou faire les bons choix stratégiques.',
+        icon: UsersIcon,
     },
 ]
 
@@ -44,29 +43,12 @@ export default function ServicesSection() {
     return (
         <div className="bg-white py-24 sm:py-32" id="services">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="mx-auto max-w-2xl sm:text-center">
+                <div className="mx-auto max-w-2xl text-center">
                     <h2 className="text-base/7 font-semibold text-secondary">Services</h2>
-                    <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-balance sm:text-5xl">
-                        No server? No problem.
+                    <p className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+                        Développez vos projets avec nous.
                     </p>
-                    <p className="mt-6 text-lg/8 text-gray-600">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste
-                        dolor cupiditate blanditiis.
-                    </p>
-                </div>
-            </div>
-            <div className="relative overflow-hidden pt-16">
-                <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                    <img
-                        alt="App screenshot"
-                        src="https://tailwindcss.com/plus-assets/img/component-images/project-app-screenshot.png"
-                        width={2432}
-                        height={1442}
-                        className="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
-                    />
-                    <div aria-hidden="true" className="relative">
-                        <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-white pt-[7%]" />
-                    </div>
+                    <p className="mt-2 text-lg/8 text-gray-600">Retrouvez ici les différents services proposés par OverCode, si vous ne trouvez pas votre besoin, n'hésitez pas à nous contacter pour en discuter et étudier vos besoins ensemble.</p>
                 </div>
             </div>
             <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8">
@@ -74,7 +56,7 @@ export default function ServicesSection() {
                     {features.map((feature) => (
                         <div key={feature.name} className="relative pl-9">
                             <dt className="inline font-semibold text-gray-900">
-                                <feature.icon aria-hidden="true" className="absolute left-1 top-1 size-5 text-indigo-600" />
+                                <feature.icon aria-hidden="true" className="absolute left-1 top-1 size-5 text-primary" />
                                 {feature.name}
                             </dt>{' '}
                             <dd className="inline">{feature.description}</dd>
