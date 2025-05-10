@@ -4,7 +4,7 @@ const pages = [
     { name: 'CGV', href: '#', current: true },
 ]
 
-export default function NavbarSection(props: { date?: string }) {
+export default function NavbarSection() {
     return (
         <div>
             <nav aria-label="Breadcrumb" className="flex">
