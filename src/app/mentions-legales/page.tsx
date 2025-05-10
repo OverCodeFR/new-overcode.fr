@@ -1,5 +1,4 @@
 import NavbarSectionMentions from "@/app/components/NavbarSectionMentions";
-import NavbarSection from "@/app/components/NavbarSection";
 
 export default function Cgv() {
     return (
