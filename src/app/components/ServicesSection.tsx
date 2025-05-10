@@ -42,10 +42,10 @@ const features = [
 
 export default function ServicesSection() {
     return (
-        <div className="bg-white py-24 sm:py-32">
+        <div className="bg-white py-24 sm:py-32" id="services">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl sm:text-center">
-                    <h2 className="text-base/7 font-semibold text-indigo-600">Everything you need</h2>
+                    <h2 className="text-base/7 font-semibold text-secondary">Services</h2>
                     <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-balance sm:text-5xl">
                         No server? No problem.
                     </p>

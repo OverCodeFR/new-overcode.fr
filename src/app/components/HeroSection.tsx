@@ -45,7 +45,7 @@ export default function HeroSection() {
                                     >
                                         Prendre contact
                                     </a>
-                                    <a href="#about" className="text-sm/6 font-semibold text-gray-900 hover:text-gray-600">
+                                    <a href="#a-propos" className="text-sm/6 font-semibold text-gray-900 hover:text-gray-600">
                                         A propos <span aria-hidden="true">→</span>
                                     </a>
                                 </div>

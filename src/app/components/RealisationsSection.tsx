@@ -93,7 +93,7 @@ export default function RealisationsSection() {
                     <h2 className="text-base/7 font-semibold text-secondary">Réalisations</h2>
 
                     <p className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-                        changer ce nom+
+                        Sites vitrines, e-commerce et applications webs ou mobiles
                     </p>
                     <p className="mt-2 text-lg/8 text-gray-600">Retrouvez ici les différents projets d&apos;applications Web ou Mobile pour les clients/partenaires de OverCode.</p>
                 </div>
