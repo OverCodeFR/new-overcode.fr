@@ -3,10 +3,10 @@ import {EnvelopeIcon} from "@heroicons/react/20/solid";
 
 const navigation = {
     solutions: [
-        { name: 'A propos', href: '#a-propos' },
-        { name: 'Services', href: '#services' },
+        { name: 'A propos', href: '/#a-propos' },
+        { name: 'Services', href: '/#services' },
         { name: 'Réalisations', href: '#realisations' },
-        { name: 'Contact', href: '#contact' },
+        { name: 'Contact', href: '/#contact' },
     ],
     socials: [
         { name: 'X', href: 'https://x.com/OverCode_' },
@@ -97,7 +97,7 @@ export default function FooterSection() {
                         src="/images/overcode-logo.webp"
                         className="h-9 w-auto"
                     />
-                    <div className="mt-16 grid grid-cols-4 gap-8 xl:col-span-2 xl:mt-0">
+                    <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-8 xl:col-span-2 xl:mt-0">
                         <div>
                             <h3 className="text-sm/6 font-semibold text-gray-950">Plan du site</h3>
                             <ul role="list" className="mt-6 space-y-4">
@@ -110,7 +110,7 @@ export default function FooterSection() {
                                 ))}
                             </ul>
                         </div>
-                        <div className="mt-10 md:mt-0">
+                        <div className="md:mt-0">
                             <h3 className="text-sm/6 font-semibold text-gray-950">Liens divers</h3>
                             <ul role="list" className="mt-6 space-y-4">
                                 {navigation.legal.map((item) => (
@@ -122,7 +122,7 @@ export default function FooterSection() {
                                 ))}
                             </ul>
                         </div>
-                        <div className="mt-10 md:mt-0">
+                        <div className="md:mt-0">
                             <h3 className="text-sm/6 font-semibold text-gray-950">Réseaux sociaux</h3>
                             <ul role="list" className="mt-6 space-y-4">
                                 {navigation.socials.map((item) => (
@@ -134,7 +134,7 @@ export default function FooterSection() {
                                 ))}
                             </ul>
                         </div>
-                        <div className="mt-10 md:mt-0">
+                        <div className="md:mt-0">
                             <h3 className="text-sm/6 font-semibold text-gray-950">Liens divers</h3>
                             <ul role="list" className="mt-6 space-y-4">
                                 {navigation.projects.map((item) => (
@@ -149,7 +149,7 @@ export default function FooterSection() {
                     </div>
                 </div>
                 <div className="mt-12 border-t border-gray-900/10 pt-8 md:flex md:items-center md:justify-between">
-                    <div className="flex gap-x-6 md:order-2">
+                    <div className="flex gap-x-6 md:order-2 justify-center sm:justify-start">
                         {navigation.social.map((item) => (
                             <a key={item.name} href={item.href} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800">
                                 <span className="sr-only">{item.name}</span>
@@ -157,7 +157,7 @@ export default function FooterSection() {
                             </a>
                         ))}
                     </div>
-                    <p className="mt-8 text-sm/6 text-gray-600 md:order-1 md:mt-0">
+                    <p className="mt-8 text-sm/6 text-gray-600 md:order-1 md:mt-0 text-center sm:text-left">
                         &copy; 2021-{ year } <span className={'text-primary font-medium'}>OverCode</span>. Tous droits réservés.
                     </p>
                 </div>

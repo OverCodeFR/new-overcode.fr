@@ -1,11 +1,12 @@
 import NavbarSectionMentions from "@/app/components/NavbarSectionMentions";
+import NavbarSection from "@/app/components/NavbarSection";
 
 export default function Cgv() {
     return (
-        <div className="bg-white py-24 sm:py-32">
+        <div className="bg-white py-8 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <NavbarSectionMentions/>
-                <ul className="px-32 gap-y-4">
+                <ul className="px-0 sm:px-32 gap-y-4">
                     <li className="mt-8">
                         <h2 className="text-xl font-medium text-gray-900 mb-2">Éditeur du site</h2>
                         <p className="text-base text-gray-700">
