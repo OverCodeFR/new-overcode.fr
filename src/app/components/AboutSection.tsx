@@ -29,6 +29,8 @@ export default function AboutSection() {
                         <div className="-mx-8 grid grid-cols-2 gap-4 sm:-mx-16 sm:grid-cols-4 lg:mx-0 lg:grid-cols-2 lg:gap-4 xl:gap-8">
                             <div className="aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10">
                                 <Image
+                                    width={300}
+                                    height={300}
                                     alt="Overcode Developpement"
                                     src="/images/programming.webp"
                                     className="block size-full object-cover"
@@ -36,6 +38,8 @@ export default function AboutSection() {
                             </div>
                             <div className="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10 lg:-mt-40">
                                 <Image
+                                    width={300}
+                                    height={300}
                                     alt="Logo Overcode"
                                     src="/images/overcode.webp"
                                     className="block size-full object-cover"
